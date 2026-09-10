@@ -18,12 +18,12 @@
 
 ---
 
-## 📱 App Experience & Screenshots
+## App Experience and Screenshots
 
 ### Minimalist Onboarding Experience
 Clean, human, and modern cartoon onboarding inspired by the best mobility apps:
 
-| 🚖 1. Request a Ride | 🏍️ 2. Beat the Traffic | 📦 3. Express Delivery |
+| 1. Request a Ride | 2. Beat the Traffic | 3. Express Delivery |
 |:---:|:---:|:---:|
 | <img src="docs/screenshots/onboarding_cabs.jpg" width="260" alt="Cabs & XL Rides" /> | <img src="docs/screenshots/onboarding_boda.jpg" width="260" alt="Tambula Boda" /> | <img src="docs/screenshots/onboarding_courier.jpg" width="260" alt="Express Delivery" /> |
 | *Affordable cabs & spacious XL with vetted 5-star drivers.* | *Zip through Jinja Road gridlock safely with certified riders.* | *Door-to-door parcel delivery with 4-digit recipient PIN.* |
@@ -31,15 +31,15 @@ Clean, human, and modern cartoon onboarding inspired by the best mobility apps:
 <br />
 
 <div align="center">
-  <h3>✨ Golden Reference Architecture</h3>
+  <h3>Golden Reference Architecture</h3>
   <img src="docs/screenshots/app_preview.png" alt="Tambula App UI Showcase" width="90%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.12);" />
 </div>
 
 ---
 
-## ⚡ Key Capabilities
+## Key Capabilities
 
-### 🚗 Passenger Experience
+### Passenger Experience
 - **Cinematic Clean Splash**: Ambient Kampala backdrop with instant auto-transition and tap-to-skip.
 - **Service Categories**:
   - **Tambula Comfort**: Air-conditioned, modern sedans for city commutes.
@@ -50,20 +50,20 @@ Clean, human, and modern cartoon onboarding inspired by the best mobility apps:
 - **Safety Toolkit**: Instant 999 Police SOS trigger, live trip location sharing via WhatsApp/SMS, and trusted contacts management.
 - **Activity & Rebooking**: Uber-style trips feed with status filters, route snapshot maps, PDF tax receipt downloads, and 1-tap "Ride Again" rebooking.
 
-### 🛵 Driver Ecosystem
+### Driver Ecosystem
 - **Instant Request Radar**: Audible incoming job notifications with 15-second response timers, estimated earnings, and pickup distances.
 - **Navigation Overlay**: Turn-by-turn routing to passenger pickup and destination drop-off.
 - **Weekly Earnings & Ledger**: Daily income bar charts, gross trip tallies, weekly subscription tracking, and instant cashout to MTN MoMo / Airtel Money accounts.
 - **Driver Verification**: Document checklist (Driving Permit, PSV License, National ID, Third Party Insurance).
 
-### 💳 Local Uganda Payment Infrastructure
+### Local Uganda Payment Infrastructure
 - **Zero Cash Hassle**: Direct push integration with **MTN Mobile Money** (`*165#`) and **Airtel Money** (`*185#`).
 - **Tambula Wallet**: Digital ledger with privacy balance eye toggle, quick top-up presets (`+10,000`, `+25,000`, `+50,000`, `+100,000 UGX`), and automated fare settlements.
 - **Cash Backup**: Transparent cash fare collection with automated change reminders.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 The repository maintains a clean dual-project setup sharing identical component logic:
 
@@ -72,7 +72,7 @@ Traveling/
 ├── docs/
 │   ├── assets/              # GitHub hero banners & graphics
 │   └── screenshots/         # App flow & onboarding screenshots
-├── TamblaExpo/              # 🚀 Primary Expo SDK 57 project (recommended for rapid dev)
+├── TamblaExpo/              # Primary Expo SDK 57 project (recommended for rapid dev)
 │   ├── assets/              # App icons, splash screens, onboarding illustrations
 │   ├── src/
 │   │   ├── components/      # Common UI (TamblaButton, WalletCard, RideCard, etc.)
@@ -88,7 +88,7 @@ Traveling/
 │   │   └── theme/           # Design tokens (colors, typography, spacing, radius)
 │   ├── App.js               # Safe area & gesture root container
 │   └── package.json
-├── Tambla/                  # ⚙️ Bare React Native project (Native Android & iOS engines)
+├── Tambla/                  # Bare React Native project (Native Android & iOS engines)
 ├── tambla_antigravity_package/ # Product specs, design references & master build docs
 ├── .gitignore               # Clean root git ignore (excludes node_modules & build artifacts)
 └── README.md                # Project documentation
@@ -96,7 +96,7 @@ Traveling/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option A: Expo Go (Recommended for Mobile Device Testing)
 
@@ -143,7 +143,7 @@ Traveling/
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Core**: [React Native 0.87.1](https://reactnative.dev/), [React 19.2.3](https://react.dev/)
 - **Expo Framework**: [Expo SDK 57](https://expo.dev/)
@@ -155,7 +155,7 @@ Traveling/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are warmly welcome!
 1. Fork the Project
@@ -166,10 +166,10 @@ Contributions are warmly welcome!
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
-  <sub>Built with ❤️ for Kampala and the Future of African Urban Mobility.</sub>
+  <sub>Built for Kampala and the Future of African Urban Mobility.</sub>
 </div>
