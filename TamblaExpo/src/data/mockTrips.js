@@ -1,0 +1,210 @@
+/**
+ * Tambla — Mock Trips
+ *
+ * Realistic trip data for UI development.
+ */
+
+const mockTrips = {
+  current: {
+    id: 't-current',
+    status: 'in_progress',
+    pickup: {
+      name: 'Your location',
+      address: 'Ntinda, Kampala',
+      latitude: 0.3540,
+      longitude: 32.6170,
+    },
+    destination: {
+      name: 'Kampala City Centre',
+      address: 'Central Division, Kampala',
+      latitude: 0.3136,
+      longitude: 32.5811,
+    },
+    fare: 12000,
+    distance: 6.2,
+    duration: 18,
+    elapsedMinutes: 2,
+    elapsedSeconds: 45,
+    paymentMethod: 'mobile_money',
+    paymentLabel: 'Mobile Money',
+    rideType: 'standard',
+    driverId: 'd1',
+    startedAt: '2025-04-15T10:30:00',
+  },
+
+  past: [
+    {
+      id: 't1',
+      status: 'completed',
+      pickup: {
+        name: 'Ntinda',
+        address: 'Ntinda, Kampala',
+      },
+      destination: {
+        name: 'Kampala City Centre',
+        address: 'Central Division, Kampala',
+      },
+      fare: 12000,
+      distance: 6.2,
+      duration: 22,
+      paymentMethod: 'mobile_money',
+      paymentLabel: 'MTN Mobile Money',
+      rideType: 'standard',
+      driverId: 'd1',
+      driverName: 'Musa Ssebufu',
+      vehicle: 'Toyota Corolla — UAX 123Z',
+      rating: 5,
+      date: '2025-04-15',
+      time: '10:30 AM',
+    },
+    {
+      id: 't2',
+      status: 'completed',
+      pickup: {
+        name: 'Acacia Mall',
+        address: 'Kisementi, Kampala',
+      },
+      destination: {
+        name: 'Entebbe Airport',
+        address: 'Entebbe',
+      },
+      fare: 45000,
+      distance: 35.0,
+      duration: 55,
+      paymentMethod: 'cash',
+      paymentLabel: 'Cash',
+      rideType: 'standard',
+      driverId: 'd2',
+      driverName: 'Kenneth Okello',
+      vehicle: 'Toyota Wish — UBE 456A',
+      rating: 5,
+      date: '2025-04-14',
+      time: '2:15 PM',
+    },
+    {
+      id: 't3',
+      status: 'completed',
+      pickup: {
+        name: 'Kololo',
+        address: 'Kololo, Kampala',
+      },
+      destination: {
+        name: 'Muyenga',
+        address: 'Makindye Division',
+      },
+      fare: 8000,
+      distance: 3.8,
+      duration: 14,
+      paymentMethod: 'mobile_money',
+      paymentLabel: 'Airtel Money',
+      rideType: 'moto',
+      driverId: 'd5',
+      driverName: 'Patrick Ssempijja',
+      vehicle: 'Bajaj Boxer — UFL 112M',
+      rating: 4,
+      date: '2025-04-13',
+      time: '6:45 PM',
+    },
+    {
+      id: 't4',
+      status: 'cancelled',
+      pickup: {
+        name: 'Bugolobi',
+        address: 'Bugolobi, Kampala',
+      },
+      destination: {
+        name: 'Nakawa',
+        address: 'Nakawa Division',
+      },
+      fare: 7000,
+      distance: 2.1,
+      duration: 10,
+      paymentMethod: 'wallet',
+      paymentLabel: 'Tambla Wallet',
+      rideType: 'standard',
+      driverId: null,
+      driverName: null,
+      vehicle: null,
+      rating: null,
+      date: '2025-04-12',
+      time: '9:00 AM',
+      cancelReason: 'No drivers available',
+    },
+    {
+      id: 't5',
+      status: 'completed',
+      pickup: {
+        name: 'Makerere University',
+        address: 'University Rd, Kampala',
+      },
+      destination: {
+        name: 'Garden City',
+        address: 'Yusuf Lule Rd, Kampala',
+      },
+      fare: 10000,
+      distance: 4.5,
+      duration: 16,
+      paymentMethod: 'mobile_money',
+      paymentLabel: 'MTN Mobile Money',
+      rideType: 'standard',
+      driverId: 'd6',
+      driverName: 'Joseph Nsubuga',
+      vehicle: 'Toyota Noah — UBG 654K',
+      rating: 5,
+      date: '2025-04-11',
+      time: '11:20 AM',
+    },
+  ],
+
+  upcoming: [
+    {
+      id: 't-upcoming1',
+      status: 'scheduled',
+      pickup: {
+        name: 'Ntinda',
+        address: 'Ntinda, Kampala',
+      },
+      destination: {
+        name: 'Entebbe Airport',
+        address: 'Entebbe',
+      },
+      fare: 48000,
+      distance: 38.0,
+      rideType: 'standard',
+      paymentMethod: 'mobile_money',
+      paymentLabel: 'MTN Mobile Money',
+      scheduledDate: '2025-04-18',
+      scheduledTime: '5:00 AM',
+    },
+  ],
+
+  // Driver-side recent trips
+  driverTrips: [
+    {
+      id: 'dt1',
+      pickup: 'Kampala City Centre',
+      destination: 'Ntinda',
+      fare: 15000,
+      date: 'Today, 08:12',
+      status: 'completed',
+    },
+    {
+      id: 'dt2',
+      pickup: 'Makerere University',
+      destination: 'Kololo',
+      fare: 10000,
+      date: 'Today, 06:45',
+      status: 'completed',
+    },
+    {
+      id: 'dt3',
+      pickup: 'Entebbe Road',
+      destination: 'Kampala',
+      fare: 22000,
+      date: 'Yesterday, 17:30',
+      status: 'completed',
+    },
+  ],
+};
+
+export default mockTrips;

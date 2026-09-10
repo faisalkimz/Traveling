@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Expo & Build outputs
+.expo/
+*/.expo/
+dist/
+*/dist/
+web-build/
+*/web-build/
+expo-env.d.ts
+
+# Android & iOS Native build artifacts
+android/app/build/
+android/.gradle/
+*/android/app/build/
+*/android/.gradle/
+ios/Pods/
+ios/build/
+*/ios/Pods/
+*/ios/build/
+.kotlin/
+
+# Certificates & Keys
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Metro & Bundler
+.metro-health-check*
+*.tsbuildinfo
+
+# Logs & Debugging
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# Environment variables & IDE config
+.env*.local
+.cursor/
+
+# OS specific
+.DS_Store
+Thumbs.db
